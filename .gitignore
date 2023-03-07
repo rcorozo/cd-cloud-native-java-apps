@@ -8,6 +8,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+**/.vagrant
+**/NUL
+
 ### Eclipse ###
 .metadata
 .sonarlint
