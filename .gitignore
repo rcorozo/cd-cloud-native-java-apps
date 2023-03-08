@@ -8,6 +8,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+lab-setup
+sandbox/app/bin
+
 ### Eclipse ###
 .metadata
 .sonarlint
