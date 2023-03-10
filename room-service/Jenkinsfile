@@ -2,4 +2,23 @@ pipeline {
     
     agent any
     
+    stages {
+        stage('Build App') {
+            steps {
+                sh 'echo "Performing Maven Build:"'
+            }
+        }
+
+        stage('Build Container Image') {
+            steps {
+                sh 'echo "Building Container Image:"'
+            }
+        }
+
+        stage('Push Container Image') {
+            steps {
+                sh 'echo "Pushing Container Image:"'
+            }
+        }
+    }
 }
