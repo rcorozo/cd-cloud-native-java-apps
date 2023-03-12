@@ -11,3 +11,10 @@ resources:
 - hotel-webapp-service.yaml
 - room-deployment.yaml
 - room-service.yaml
+images:
+- name: ghcr.io/hotel-landon-kb/hotel-webapp
+  newName: ghcr.io/hotel-landon-kb/hotel-webapp
+  newTag: "32"
+- name: ghcr.io/hotel-landon-kb/room-service
+  newName: ghcr.io/hotel-landon-kb/room-service
+  newTag: "22"
